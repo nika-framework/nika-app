@@ -4,7 +4,7 @@ go 1.26.4
 
 require (
 	github.com/gin-gonic/gin v1.12.0
-	github.com/sajadweb/nika v0.1.1
+	github.com/nika-framework/nika v0.1.4
 )
 
 require (

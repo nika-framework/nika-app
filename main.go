@@ -3,9 +3,9 @@ package main
 import (
 	"NikaApp/src"
 
-	"github.com/sajadweb/nika"
-	"github.com/sajadweb/nika/common/config"
-	"github.com/sajadweb/nika/common/validator"
+	"github.com/nika-framework/nika"
+	"github.com/nika-framework/nika/common/config"
+	"github.com/nika-framework/nika/common/validator"
 )
 
 func main() {

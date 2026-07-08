@@ -1,6 +1,6 @@
 package src
 
-import "github.com/sajadweb/nika/common/config"
+import "github.com/nika-framework/nika/common/config"
 
 type AppService struct {
 	Cfg *config.Config

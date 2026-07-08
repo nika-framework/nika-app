@@ -1,7 +1,7 @@
 package src
 
 import ( 
-	"github.com/sajadweb/nika"
+	"github.com/nika-framework/nika"
 )
 
 type AppModule struct{}
