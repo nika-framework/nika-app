@@ -20,6 +20,7 @@ func main() {
 	rootModule := src.NewAppModule()
 	app.LoadModule(rootModule)
 
-	port := cfg.Get("PORT","3007")
+	port := cfg.GetString("PORT","3007")
 	app.Listen(":" + port)
 }
+	
