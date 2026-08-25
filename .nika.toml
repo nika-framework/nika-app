@@ -1,0 +1,32 @@
+#:schema https://json.schemastore.org/any.json
+
+root = "."
+testdata_dir = "testdata"
+tmp_dir = "tmp"
+
+[workspace]
+  mode = ""
+  apps_dir = "apps"
+  default_app = ""
+  src_dir = "src"
+
+[agent]
+  provider = ""
+  model = ""
+  base_url = ""
+  api_key_env = ""
+  max_steps = 25
+
+[build]
+  cmd = "go run ."
+  args = []
+  bin = ""
+  delay = 1000
+  exclude_dir = ["docs", "tmp", "vendor", "testdata", ".git", "cache"]
+  exclude_file = []
+  exclude_regex = ["^\\."]
+  include_ext = [".go"]
+  pre_cmd = []
+  post_cmd = []
+  env_files = []
+  [build.env]

@@ -21,6 +21,11 @@ func (m *AppModule) Providers() []interface{} {
 		NewAppService,
 	}
 }
+func (m *AppModule) Exports() []interface{} {
+	return []interface{}{
+		NewAppService,
+	}
+}
 
 func (m *AppModule) Imports() []nika.Module {
 	return []nika.Module{
